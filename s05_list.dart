@@ -56,7 +56,9 @@ print(tempList1.map((e) => e*2));
   // 문제 11. where를 이용해서 tempList1의 짝수만 출력하시오.
 print(tempList1.where((element) => element%2==0));
   // 문제 12. forEach를 이용해서 tempList1의 요소를 반복하고 출력하시오.
-tempList1.forEach((element) => print(element));
+tempList1.forEach((tempList) {
+    print(tempList);
+});
   // 문제 13. any를 이용해서 tempList1에 3이 있는지 확인하고 출력하시오.
 print(tempList1.any((element) => element==3));
   // 문제 14. every를 이용해서 tempList1의 모든 요소가 3보다 작은지 확인하고 출력하시오.
